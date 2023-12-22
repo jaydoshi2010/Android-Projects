@@ -1,0 +1,35 @@
+<!-- activity_add_book.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/bookIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:hint="Book ID" />
+
+    <EditText
+        android:id="@+id/bookNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Book Name" />
+
+    <EditText
+        android:id="@+id/numberOfBooksEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Number of copies" />
+
+    <Button
+        android:id="@+id/addBookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:text="Add Book" />
+</LinearLayout>

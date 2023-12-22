@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Books / Checkout"
+        app:titleTextColor="@color/white"
+        android:layout_gravity="center"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/selectedBooksTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Selected Books will Appear"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        />
+
+    <Button
+        android:id="@+id/finalCheckoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Proceed to checkout"
+        android:textSize="20dp"
+        android:textAlignment="center"
+
+        />
+
+
+
+
+
+
+</LinearLayout>
